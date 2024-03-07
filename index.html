@@ -1,0 +1,84 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- TailwindCSS Source -->
+    <link rel="stylesheet" href="./src/output.css">
+
+    <!-- Import Poppins Font from Google Font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet">
+    <title>Day-3 Tugas TailwindCSS</title>
+  </head>
+  <body class="font-poppins">
+    <!-- Customer Comment Section -->
+
+    <section>
+      <header class="mt-5 relative">
+        <div class="bg-comment bg-[#f6ebda] w-1/2 pr-8 h-auto rounded-tr-xl rounded-br-xl">
+          <img src="./assets/Images/bg-testimonial.png" alt="" class="brightness-[500%] saturate-[0.48] opacity-40 rounded-tr-xl rounded-br-xl">
+        </div>
+
+        <div class="title-desc absolute inset-0 p-28">
+          <h2 class="text-2xl font-poppins-semibold">What they say about us</h2>
+          <p class="text-gray-500 pt-4">
+            We always provide the best service <br> and always maintain the quality of <br> coffee
+          </p>
+
+          <div class="grid grid-cols-3 gap-36 ml-96 -my-[176px] z-30">
+            <div class="testimoni-1">
+              <img src="./assets/Images/testimonial-1.png" alt="" class="w-[180px] h-auto">
+              <div class="comment-customer absolute bg-[#ffcb7c] rounded-md py-2 px-3 border-[6px] border-solid border-[#ffedd2] border-opacity-50 -mt-[106px] ml-8">
+                <h4 class="font-semibold">Naura</h4>
+                <p class="text-sm">I really love the cappucino, <br> the coffee was very smooth</p>
+              </div>
+            </div>
+
+            <div class="testimoni-2">
+              <img src="./assets/Images/testimonial-2.png" alt="" class="w-[188px] h-auto">
+              <div class="comment-customer absolute bg-[#ffcb7c] rounded-md py-2 px-3 pr-24 border-[6px] border-solid border-[#ffedd2] border-opacity-50 trans -mt-[106px] ml-8">
+                <h4 class="font-semibold">John</h4>
+                <p class="text-sm">This coffee is very <br> convenient</p>
+              </div>
+              <div class="flex justify-center mt-6">
+                <div class="w-2 h-2 rounded-full bg-[#ff9633] mr-1"></div>
+                <div class="w-2 h-2 rounded-full bg-[#f9ecda] mr-1"></div>
+                <div class="w-2 h-2 rounded-full bg-[#f9ebd7]"></div>
+              </div>
+            </div>
+            
+
+            <div class="testimoni-3">
+              <img src="./assets/Images/testimonial-3.png" alt="" class="w-[188px] h-auto">
+              <div class="comment-customer absolute bg-[#ffcb7c] rounded-md py-2 px-3 pr-16 border-[6px] border-solid border-[#ffedd2] border-opacity-50 -mt-[106px] ml-8">
+                <h4 class="font-semibold">Azura</h4>
+                <p class="text-sm">This coffee menu here is<br> very much</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </header>
+    </section>
+
+    <!-- Subscription Section -->
+
+    <section>
+      <main class="justify-center items-center flex relative mt-24 mb-5">
+        <img src="./assets/Images/bg-newsletter.png" alt="newsletter" class="w-2/3">
+        <div class="absolute inset-0 flex flex-col items-center justify-center">
+          <h2 class="text-white font-poppins-semibold text-3xl mb-6">Subscribe to get 50% discount price</h2>
+          <form action="#" class="bg-white p-1 rounded-full">
+            <div class="flex">
+              <input type="email" name="email" id="EmailInput" placeholder="Email address" class="pl-3 pr-14 rounded-l-full font-semibold text-xs">
+              <button class="bg-[#2f2105] text-white rounded-full text-xs px-5 py-2 font-semibold ml-3">Order now</button>
+            </div>
+          </form>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>
