@@ -1,2 +1,2 @@
-Preview: 
-## naregazzz.github.io/SMKCoding
+Preview Web:
+(naregazzz.github.io/SMKCoding)
